@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    /> 
+    <link rel="stylesheet" href="assyst/slick.css">
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container header-align">
+        <div class="logo">
+          <h1>My Website</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner-slider">
+      <div class="slide active">
+        <div class="container">
+          <h2>Welcome to My Website</h2>
+          <p>Your one-stop solution for web design and development.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <h2>Quality Services</h2>
+          <p>
+            We provide top-notch web development services to help your business
+            grow.
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <h2>Contact Us Today</h2>
+          <p>Let's discuss how we can bring your vision to life.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dynamic Gallery Section -->
+    <!-- <div class="gallery-pop">
+      <h2>Gallery</h2>
+      <div id="gallery" class="gallery"></div>
+
+      <div id="popup-slider" class="popup">
+        <span class="close">&times;</span>
+        <div class="slider">
+          <img id="popup-image" src="" alt="Popup Image" />
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+    </div> -->
+    <!-- Gallery -->
+<div class="gallery-poppup">
+    <h2 style="text-align: center;">Gallery</h2>
+    <div class="gallery">
+
+        <div class="gallery-item" data-images='["images/img-1.jpeg", "images/img-2.jpg", "images/img-3.jpg"]'>
+            <img src="images/img-1.jpeg" alt="Thumbnail 1">
+            <h5>Title</h5>
+        </div>
+        <div class="gallery-item" data-images='["image2-1.jpg", "image2-2.jpg", "image2-3.jpg"]'>
+            <img src="images/img-3.jpg" alt="Thumbnail 2">
+            <h3>Title</h3>
+        </div>
+        <div class="gallery-item" data-images='["image2-1.jpg", "image2-2.jpg", "image2-3.jpg"]'>
+            <img src="images/img-3.jpg" alt="Thumbnail 2">
+            <h3>Title</h3>
+        </div>
+        <div class="gallery-item" data-images='["image2-1.jpg", "image2-2.jpg", "image2-3.jpg"]'>
+            <img src="images/img-3.jpg" alt="Thumbnail 2">
+            <h3>Title</h3>
+        </div>
+        <div class="gallery-item" data-images='["image2-1.jpg", "image2-2.jpg", "image2-3.jpg"]'>
+            <img src="images/img-3.jpg" alt="Thumbnail 2">
+            <h3>Title</h3>
+        </div>
+        <div class="gallery-item" data-images='["image2-1.jpg", "image2-2.jpg", "image2-3.jpg"]'>
+            <img src="images/img-3.jpg" alt="Thumbnail 2">
+            <h3>Title</h3>
+        </div>
+        <!-- Add more gallery items here -->
+         <!-- Popup Slider -->
+    <div id="popup-slider">
+        <span class="close">&times;</span>
+        <div class="popupSlider"></div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+      </div>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assyst/slick.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
