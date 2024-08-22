@@ -1,15 +1,18 @@
+// Banner
 $(document).ready(function(){
     $('.banner-slider').slick({         
         arrows: true,   
         speed: 500,         
         fade: true,          
         cssEase: 'linear',
+        autoplay: true, 
         prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
         nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
-        autoplay: true,      
         autoplaySpeed: 3000
     });
 });
+
+// gallery slider
 $(document).ready(function() {
     function openPopup(images) {
         // Initialize Slick Slider
@@ -21,7 +24,7 @@ $(document).ready(function() {
             autoplay: false,
             prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
             nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
-            autoplaySpeed: 3000
+            
         });
 
         // Populate the slider with images

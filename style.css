@@ -68,7 +68,7 @@ header nav {
 }
 
 /* Banner Slider */
-.banner-slider{
+.banner-slider {
     position: relative;
     overflow: hidden;
 }
@@ -87,7 +87,7 @@ header nav {
 }
 
 
-  .banner-slider .slide {
+.banner-slider .slide {
     display: flex !important;
     justify-content: center;
     align-items: center;
@@ -95,15 +95,16 @@ header nav {
     text-align: center;
     border: none;
     outline: none;
-  }
+}
 
-  .banner-slider .container {
+.banner-slider .container {
     max-width: 800px;
     margin: 0 auto;
-  }
+}
 
 
-  .banner-slider .slick-prev,.banner-slider .slick-next {
+.banner-slider .slick-prev,
+.banner-slider .slick-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -112,19 +113,21 @@ header nav {
     border: none;
     padding: 10px;
     cursor: pointer;
-  }
+}
 
-  .banner-slider .slick-prev {
+.banner-slider .slick-prev {
     left: 10px;
-  }
+}
 
-  .banner-slider .slick-next {
+.banner-slider .slick-next {
     right: 10px;
-  }
+}
 
-  .banner-slider .slick-prev:hover,.banner-slider .slick-next:hover {
+.banner-slider .slick-prev:hover,
+.banner-slider .slick-next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
+}
+
 .banner-slider {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -182,20 +185,38 @@ header nav {
 }
 
 .gallery .slick-slider {
-    width: 70%;
-    height: 80%;
+    position: relative;
+    top: 6.8em;
+    left: 0;
 }
 
 .gallery .slick-slide img {
     border-radius: 10px;
-    width: 100%;
+    width: 500px;
     max-height: 500px;
 }
 
-.gallery .slick-prev,.gallery .slick-next {
-    color: white;
+.gallery .slick-prev,
+.gallery .slick-next {
+    color: #000;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 15px 10px;
+    top: 50%;
+    cursor: pointer;
+    z-index: 1002;
+}
+
+.gallery .slick-prev {
+    position: relative;
+    top: 8em;
+    left: 20px;
+}
+
+.gallery .slick-next {
+    position: absolute;
+
+    right: 20px;
 }
 
 .gallery .close {
@@ -206,6 +227,13 @@ header nav {
     font-size: 30px;
     cursor: pointer;
 }
+
+
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 footer {
     background: #333;
