@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Popup Gallery</title>
-  
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    /> 
-    <link rel="stylesheet" href="assyst/slick.css">
+    />
+    <link rel="stylesheet" href="assyst/slick.css" />
     <link rel="stylesheet" href="style.css" />
-
   </head>
   <body>
     <!-- Header Section -->
@@ -55,43 +53,59 @@
       </div>
     </section>
 
-<div class="gallery-poppup">
-    <h2 style="text-align: center;">Gallery</h2>
-    <div class="gallery">
+    <div class="gallery-poppup">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <div
+          class="gallery-item"
+          data-images='["images/img-9.jpeg", "images/img-2.jpg", "images/img-3.jpg"]'
+        >
+          <img src="images/img-9.jpg" alt="Thumbnail 1" />
+          <h5>Title</h5>
+        </div>
+        <div
+          class="gallery-item"
+          data-images='["images/img-4.jpg", "images/img-5.jpg", "images/img-6.jpg"]'
+        >
+          <img src="images/img-2.jpg" alt="Thumbnail 2" />
+          <h3>Title</h3>
+        </div>
+        <div
+          class="gallery-item"
+          data-images='["images/img-7.jpeg", "images/img-9.jpg", "images/img-5.jpg"]'
+        >
+          <img src="images/img-6.jpg" alt="Thumbnail 2" />
+          <h3>Title</h3>
+        </div>
+        <div
+          class="gallery-item"
+          data-images='["images/img-12.jpg", "images/img-13.jpg", "images/img-14.jpg"]'
+        >
+          <img src="images/img-4.jpg" alt="Thumbnail 2" />
+          <h3>Title</h3>
+        </div>
+        <div
+          class="gallery-item"
+          data-images='["images/img-9.jpeg", "images/img-2.jpg", "images/img-5.jpg"]'
+        >
+          <img src="images/img-13.jpg" alt="Thumbnail 2" />
+          <h3>Title</h3>
+        </div>
+        <div
+          class="gallery-item"
+          data-images='["images/img-15.jpg", "images/img-12.jpg", "images/img-3.jpg"]'
+        >
+          <img src="images/img-5.jpg" alt="Thumbnail 2" />
+          <h3>Title</h3>
+        </div>
 
-        <div class="gallery-item" data-images='["images/img-9.jpeg", "images/img-2.jpg", "images/img-3.jpg"]'>
-            <img src="images/img-9.jpg" alt="Thumbnail 1">
-            <h5>Title</h5>
+        <!-- Popup Slider -->
+        <div id="popup-slider">
+          <span class="close">&times;</span>
+          <div class="popupSlider"></div>
         </div>
-        <div class="gallery-item" data-images='["images/img-4.jpg", "images/img-5.jpg", "images/img-6.jpg"]'>
-            <img src="images/img-2.jpg" alt="Thumbnail 2">
-            <h3>Title</h3>
-        </div>
-        <div class="gallery-item" data-images='["images/img-7.jpeg", "images/img-9.jpg", "images/img-10.jpg"]'>
-            <img src="images/img-6.jpg" alt="Thumbnail 2">
-            <h3>Title</h3>
-        </div>
-        <div class="gallery-item" data-images='["images/img-12.jpg", "images/img-13.jpg", "images/img-14.jpg"]'>
-            <img src="images/img-4.jpg" alt="Thumbnail 2">
-            <h3>Title</h3>
-        </div>
-        <div class="gallery-item" data-images='["images/img-9.jpeg", "images/img-2.jpg", "images/img-5.jpg"]'>
-            <img src="images/img-13.jpg" alt="Thumbnail 2">
-            <h3>Title</h3>
-        </div>
-        <div class="gallery-item" data-images='["images/img-15.jpg", "images/img-12.jpg", "images/img-3.jpg"]'>
-            <img src="images/img-5.jpg" alt="Thumbnail 2">
-            <h3>Title</h3>
-        </div>
- 
-         <!-- Popup Slider -->
-    <div id="popup-slider">
-        <span class="close">&times;</span>
-        <div class="popupSlider"></div>
+      </div>
     </div>
-    </div>
-</div>
-
 
     <!-- Footer Section -->
     <footer>
@@ -100,9 +114,10 @@
       </div>
     </footer>
     <script
-  src="https://code.jquery.com/jquery-3.7.1.min.js"
-  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-  crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assyst/slick.min.js"></script>
     <script src="script.js"></script>

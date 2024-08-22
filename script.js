@@ -47,7 +47,7 @@ $(document).ready(function() {
         $('#popup-slider .popupSlider').slick('unslick'); // Destroy Slick instance
     });
 });
-// $(document).ready(function() {
+
 //     let currentSlider = null;
 
 //     function openPopup(images) {
