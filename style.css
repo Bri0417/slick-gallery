@@ -209,14 +209,13 @@ header nav {
 
 .gallery .slick-prev {
     position: relative;
-    top: 8em;
-    left: 20px;
+    top: 8.26em;
+    left: 12em;
 }
 
 .gallery .slick-next {
     position: absolute;
-
-    right: 20px;
+    right: 12em;
 }
 
 .gallery .close {
