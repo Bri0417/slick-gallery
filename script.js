@@ -6,9 +6,10 @@ $(document).ready(function(){
         fade: true,          
         cssEase: 'linear',
         autoplay: true, 
+        autoplaySpeed: 3000,
         prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
         nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
-        autoplaySpeed: 3000
+        
     });
 });
 
